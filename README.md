@@ -25,3 +25,6 @@ eval "$(ssh-agent -s)"
     - remote 주소 설정: `git remote -set-url origin git@github.com-'계정명':'Repo사용자명'/'Repo명'`
     - `ssh git@github.com -v`
         - Repo로 설정한 경우: `ssh git@github-'계정명' -v`
+
+> 단 SSH키가 있는 경우 user.email을 아무런 값이나 설정해도 push와 pull이 가능했다. (제한이 없음)
+    commit 사용자는 user.name으로 설정된 값으로 보여짐
