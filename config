@@ -1,0 +1,5 @@
+# [계정명]
+Host github.com-'계정명'
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/'ssh키명'
