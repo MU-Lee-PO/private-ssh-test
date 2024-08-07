@@ -11,7 +11,7 @@ eval "$(ssh-agent -s)"
 1. ssh-keygen -t ed25519 -C "계정메일주소" -f "ssh키명"
     - ssh키명으로 SSH Key 파일 ~/.ssh에 생성
     - Win 계정명: mulee, Git Nickname: mulee
-        - /c/Users/.ssh/'ssh키명' == ~/.ssh/
+        - /c/Users/mulee/.ssh/'ssh키명' == ~/.ssh/
     - https://docs.github.com/ko/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 2. ssh키를 Github 등록
     - 계정 귀속: https://docs.github.com/ko/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
